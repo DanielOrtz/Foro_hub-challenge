@@ -27,5 +27,12 @@ Esta aplicacion se conecta a una base de datos MySQL, la cuàl contiene una seri
   <li>Insomnia </li>
   <li> MySQL Workbench para gestión de bases de datos</li>
 
-  
 </ul>
+<H1>OBJETIVO EN DIAGRAMA</H1>
+<img src="https://github.com/DanielOrtz/Challenge-Conversor-de-Monedas/blob/767e10ae52da596a83171c1ed1997673aa992014/EJEMPLO%201.JPG">
+
+
+
+
+
+
