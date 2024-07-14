@@ -15,8 +15,6 @@ Esta aplicacion se conecta a una base de datos MySQL, la cuàl contiene una seri
 </ul>
 <h1>REQUERIMIENTOS PREVIOS PARA UTILIZAR EL FORO </h1>
 <ul>
-
-
   <li>  Java 17 JDK </li>
   <li>Maven</li>
   <li>Spring Boot</li>
@@ -26,13 +24,43 @@ Esta aplicacion se conecta a una base de datos MySQL, la cuàl contiene una seri
   <li>Herramientas de desarrollo (IntelliJ IDEA) </li>
   <li>Insomnia </li>
   <li> MySQL Workbench para gestión de bases de datos</li>
-
 </ul>
 <H1>OBJETIVO EN DIAGRAMA</H1>
 <img src="https://github.com/DanielOrtz/Challenge-Conversor-de-Monedas/blob/767e10ae52da596a83171c1ed1997673aa992014/EJEMPLO%201.JPG">
 
+<H1>EJECUCION</H1>
+Después de ejecutar la aplicación localmente, tienes la oportunidad de acceder a la documentación de Swagger UI en http://localhost:8080/swagger-ui/index.html#/. para obtener detalles sobre los endpoints de la API 
+<H1>ENDPOINTS</H1>
+<H3>Controlador de Usuarios</H3>
+<ul>
+ <li>GET /users: Obtiene una lista de 10 usuarios.</li>
+ <li>PUT /users/{id}: Actualiza la información del usuario proporcionando el ID del usuario junto con el nombre o el correo electrónico actualizado.</li>
+ <li>GET /users/{id}: Obtiene los detalles de un usuario por ID.</li>
+</ul>
+<H3> Controlador de Temas </H3>
+<ul>
+ <li>GET /topics: Obtiene una lista de temas.</li>
+ <li>POST /topics: Crea un nuevo tema proporcionando título, mensaje, estado, ID de usuario y curso.</li>
+ <li>GET /topics/{id}: Obtiene un tema por ID.</li>
+   <li> DELETE /topics/{id}: Elimina un tema por ID.</li>
+</ul>
 
+<H3> Controlador de Respuestas </H3>
+<ul>
+<li>POST /responses: Publica una respuesta (comentario) a un tema proporcionando solución, ID de usuario y ID de tema.</li>
+<li>GET /responses: Obtiene una lista de respuestas.</li>
+<li>GET /responses/{id}: Obtiene una respuesta por ID.</li>
+<li>PUT /responses/{id}: Modifica una respuesta por ID.</li>
+<li>DELETE /responses/{id}: Elimina una respuesta por ID.</li>
+</ul>
 
-
+<H3> Controlador de Registro </H3>
+<ul>
+<li>POST /register: Crea un nuevo usuario para el registro.</li>
+</ul>
+<H3> Controlador de Autenticación </H3>
+<ul>
+<li>POST /authenticate: Autentica el inicio de sesión del usuario con Spring Security y JWT. Para acceder a la mayoría de los endpoints, necesitas autenticarte con un token Bearer obtenido del endpoint /authenticate.</li>
+</ul>
 
 
