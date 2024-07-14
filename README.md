@@ -62,5 +62,15 @@ Después de ejecutar la aplicación localmente, tienes la oportunidad de acceder
 <ul>
 <li>POST /authenticate: Autentica el inicio de sesión del usuario con Spring Security y JWT. Para acceder a la mayoría de los endpoints, necesitas autenticarte con un token Bearer obtenido del endpoint /authenticate.</li>
 </ul>
-
-
+<H3>Ejemplo</H3>
+<img src="https://github.com/DanielOrtz/Challenge-Conversor-de-Monedas/blob/767e10ae52da596a83171c1ed1997673aa992014/EJEMPLO%201.JPG">
+<h3>Ejecucion del programa
+</h3>
+<img src="https://github.com/DanielOrtz/Challenge-Conversor-de-Monedas/blob/767e10ae52da596a83171c1ed1997673aa992014/EJEMPLO%201.JPG">
+<h1>INDICACIONES FINALES</h1>
+<ul>
+ <li>Clona este repositorio.</li>
+ <li>Configura tu base de datos y ajusta las configuraciones de conexión en application.properties.</li>
+ <li>Por seguridad usa variables de entorno.</li>
+ <li>Compila y ejecuta la aplicación Spring Boot.</li>
+</ul>
