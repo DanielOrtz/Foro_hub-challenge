@@ -75,4 +75,4 @@ Después de ejecutar la aplicación localmente, tienes la oportunidad de acceder
  <li>Compila y ejecuta la aplicación Spring Boot.</li>
 </ul>
 <H1>INSIGNIA</H1>
-<img src="https://github.com/DanielOrtz/Foro_hub-challenge/blob/main/Imagenes%20readme/ejecucion.JPG">
+<img src="https://github.com/DanielOrtz/Foro_hub-challenge/blob/main/Badge-Spring.png">
