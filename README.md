@@ -26,7 +26,7 @@ Esta aplicacion se conecta a una base de datos MySQL, la cuàl contiene una seri
   <li> MySQL Workbench para gestión de bases de datos</li>
 </ul>
 <H1>OBJETIVO EN DIAGRAMA</H1>
-<img src="https://github.com/DanielOrtz/Challenge-Conversor-de-Monedas/blob/767e10ae52da596a83171c1ed1997673aa992014/EJEMPLO%201.JPG">
+<img src="https://github.com/DanielOrtz/Foro_hub-challenge/blob/main/Imagenes%20readme/diagrama_base_de_datos_forohub.png">
 
 <H1>EJECUCION</H1>
 Después de ejecutar la aplicación localmente, tienes la oportunidad de acceder a la documentación de Swagger UI en http://localhost:8080/swagger-ui/index.html#/. para obtener detalles sobre los endpoints de la API 
@@ -63,10 +63,10 @@ Después de ejecutar la aplicación localmente, tienes la oportunidad de acceder
 <li>POST /authenticate: Autentica el inicio de sesión del usuario con Spring Security y JWT. Para acceder a la mayoría de los endpoints, necesitas autenticarte con un token Bearer obtenido del endpoint /authenticate.</li>
 </ul>
 <H3>Ejemplo</H3>
-<img src="https://github.com/DanielOrtz/Challenge-Conversor-de-Monedas/blob/767e10ae52da596a83171c1ed1997673aa992014/EJEMPLO%201.JPG">
+<img src="https://github.com/DanielOrtz/Foro_hub-challenge/blob/main/Imagenes%20readme/ejemplo.JPG">
 <h3>Ejecucion del programa
 </h3>
-<img src="https://github.com/DanielOrtz/Challenge-Conversor-de-Monedas/blob/767e10ae52da596a83171c1ed1997673aa992014/EJEMPLO%201.JPG">
+<img src="https://github.com/DanielOrtz/Foro_hub-challenge/blob/main/Imagenes%20readme/ejecucion.JPG">
 <h1>INDICACIONES FINALES</h1>
 <ul>
  <li>Clona este repositorio.</li>
@@ -74,3 +74,5 @@ Después de ejecutar la aplicación localmente, tienes la oportunidad de acceder
  <li>Por seguridad usa variables de entorno.</li>
  <li>Compila y ejecuta la aplicación Spring Boot.</li>
 </ul>
+<H1>INSIGNIA</H1>
+<img src="https://github.com/DanielOrtz/Foro_hub-challenge/blob/main/Imagenes%20readme/ejecucion.JPG">
